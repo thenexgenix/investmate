@@ -8,7 +8,7 @@ export const Banner = () => {
                 <div className="hero-content flex-col lg:flex-row-reverse gap-40">
                     <img
                         src={banner}
-                        className="max-w-sm  rounded-lg " />
+                        className="w-full lg:max-w-sm  rounded-lg " />
                     <div>
                         <h1 className="text-5xl font-bold">Empower Your <br /> Investments with Our <br /> Platform</h1>
                         <p className="py-6">

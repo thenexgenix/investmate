@@ -6,7 +6,7 @@ import oppur3 from "../../../assets/oppu3.png"
 export const Opportunities = () => {
   return (
     <>
-        <div className='flex justify-around gap-5 my-10'>
+        <div className='flex mx-2  flex-col lg:flex-row justify-around gap-5 my-10'>
             <div className='flex gap-6'>
                 <img src={oppur1} alt="" />
                 <div>
