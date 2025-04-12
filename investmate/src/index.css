@@ -1,2 +1,43 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+/* button gradient border animation */
+/* @keyframes gradientBorder {
+    0% {
+      border-image-source: linear-gradient(to right, #00B67A, #2E74EC, #00B67A, #2E74EC);
+    }
+    25% {
+      border-image-source: linear-gradient(to right, #2E74EC, #00B67A, #2E74EC, #00B67A);
+    }
+    50% {
+      border-image-source: linear-gradient(to right, #00B67A, #2E74EC, #00B67A, #2E74EC);
+    }
+    75% {
+      border-image-source: linear-gradient(to right, #2E74EC, #00B67A, #2E74EC, #00B67A);
+    }
+    100% {
+      border-image-source: linear-gradient(to right, #00B67A, #2E74EC, #00B67A, #2E74EC);
+    }
+  } */
+
+  @keyframes gradientBorder {
+    0% {
+      border-image-source: linear-gradient(to right, #00B67A, #00B67A, #2E74EC, #2E74EC);
+    }
+    25% {
+      border-image-source: linear-gradient(to right, #2E74EC, #00B67A, #00B67A, #2E74EC);
+    }
+    50% {
+      border-image-source: linear-gradient(to right, #2E74EC, #2E74EC, #00B67A, #00B67A);
+    }
+    75% {
+      border-image-source: linear-gradient(to right, #00B67A, #2E74EC, #2E74EC, #00B67A);
+    }
+    100% {
+      border-image-source: linear-gradient(to right, #00B67A, #00B67A, #2E74EC, #2E74EC);
+    }
+  }
+
+  .animate-gradient-border {
+    animation: gradientBorder 4s linear infinite;
+  }

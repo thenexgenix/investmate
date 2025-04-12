@@ -3,6 +3,7 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home/Home";
 import Project from "../Pages/Project/Project/Project";
 import Investor from "../Pages/Investor/Investor/Investor";
+import Checkout from "../Pages/Checkout/Checkout";
 
 export const router = createBrowserRouter([
     {
@@ -18,6 +19,9 @@ export const router = createBrowserRouter([
         },{
           path:"/investor",
           element: <Investor></Investor>
+        },{
+          path: "/checkout",
+          element: <Checkout />
         }
       ]
     },
