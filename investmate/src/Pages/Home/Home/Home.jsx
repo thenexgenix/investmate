@@ -4,6 +4,7 @@ import { Opportunities } from '../Opportunities/Opportunities';
 import { Return } from '../Return/Return';
 import { Secure } from '../Secure/Secure';
 import { Project } from '../project/Project';
+import { JoinUs } from '../JoinUsSection/JoinUs';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Return></Return>
             <Secure></Secure>
             <Project></Project>
+            <JoinUs></JoinUs>
         </div>
     );
 };
