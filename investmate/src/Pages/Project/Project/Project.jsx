@@ -1,9 +1,10 @@
 import React from 'react';
+import { ProjectBannerPage } from '../ProjectBannerPage/ProjectBannerPage';
 
 const Project = () => {
     return (
-        <div>
-            <h2>This is project page</h2>
+        <div className='px-3'>
+            <ProjectBannerPage></ProjectBannerPage>
         </div>
     );
 };
