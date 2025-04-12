@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "Eco-Friendly Manufacturing",
+      "description": "Our mission is to promote sustainability through renewable energy, waste reduction, and eco-friendly innovations.",
+      "image": "https://i.ibb.co.com/8gWJy7dq/project1.png",
+      "progress": 52
+    },
+    {
+      "id": 2,
+      "title": "Sustainable Agriculture",
+      "description": "We promote eco-friendly farming practices to ensure food security while protecting the environment.",
+      "image": "https://i.ibb.co.com/v65WBqhW/project2.png",
+      "progress": 60
+    },
+    {
+      "id": 3,
+      "title": "Renewable Energy Solutions",
+      "description": "We drive the transition to clean energy for a greener planet. Join us in creating a cleaner, renewable-powered world!",
+      "image": "https://i.ibb.co.com/JZ9047c/project3.png",
+      "progress": 78
+    }
+  ]
+  
