@@ -18,7 +18,7 @@ export const ConnectSection = () => {
                 </p>
 
                 {/* Responsive Google Maps embed with aspect ratio maintained */}
-                <div className='relative pt-[66.66%] mt-4'>
+                <div className='relative pt-[66.66%] my-4'>
                     <iframe
                         className='absolute top-0 left-0 w-full h-full'
                         frameBorder='0'
@@ -29,6 +29,7 @@ export const ConnectSection = () => {
                         title='Google Map of CUET'
                     ></iframe>
                 </div>
+                <hr />
             </div>
 
             {/* Right section: Contact details with icons */}
@@ -60,6 +61,7 @@ export const ConnectSection = () => {
                     </div>
                 </div>
             </div>
+            
         </div>
     )
 }
