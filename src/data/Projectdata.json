@@ -1,0 +1,52 @@
+{
+  "projects": [
+ 
+    {
+      "id": 1,
+      "title": "Sustainable Agriculture",
+      "image_url": "https://i.postimg.cc/NMx2gMCK/agricultural.png",
+      "card_image_url": "sustainable_agriculture_card.jpg",
+      "short_description": "We promote eco-friendly farming practices to ensure food security while protecting the environment. Our focus is on organic growth.",
+      "progress": 84,
+      "funding": {
+        "amount_raised": "USD $920",
+        "progress": 56,
+        "donated" : 30,
+        "Goal" : "80k",
+        "total_invested" : 5300
+      },
+      "details": {
+        "introduction": "This project aims to revolutionize the renewable energy sector by developing innovative solar panel technology. Our objective is to provide affordable and efficient energy solutions to underserved communities, reducing their reliance on fossil fuels and promoting sustainability.\n\nThe potential impact of this initiative is significant. By harnessing solar energy, we can decrease energy costs for families, create job opportunities in installation and maintenance, and contribute to a cleaner environment. Our team is committed to making a difference, ensuring that our solutions are accessible and effective.\n\nLed by a group of experienced engineers and environmentalists, our team brings a wealth of knowledge and expertise to the project. We have collaborated with local organizations to understand the specific needs of the communities we aim to serve, ensuring that our approach is both practical and impactful.\n\nWe believe that through community engagement and education, we can empower individuals to take charge of their energy needs. Our project includes workshops and training sessions to equip locals with the skills necessary for installation and upkeep of solar systems.",
+        "join_investor_note": "Invest in the future of farming and help us grow sustainably!"
+      },
+      "contact": {
+        "location": "Chittagong, Bangladesh",
+        "email": "investmate.info@gmail.com",
+        "phone": "+880-987-654-321"
+      },
+      "support_link": "mailto:support@sustainableagri.org",
+      "faq": [
+        {
+          "question": "What is crowdfunding?",
+          "answer": "Crowdfunding is a method of raising capital through the collective effort of individuals. It allows many people to contribute small amounts of money towards a project or venture, making it accessible for various initiatives. This approach democratizes funding and empowers entrepreneurs to realize their ideas."
+        },
+        {
+          "question": "How do I invest?",
+          "answer": "To invest, simply create an account on our platform. Browse through the available projects and select one that aligns with your interests. Follow the prompts to complete your investment securely."
+        },
+        {
+          "question": "What are expected returns?",
+          "answer": "Expected returns vary by project and are influenced by factors such as duration and risk level. Each project listing includes detailed financial projections to help you make informed decisions. Our investment calculator can also assist you in estimating potential earnings."
+        },
+        {
+          "question": "Is my investment safe?",
+          "answer": "We prioritize transparency and compliance with Islamic finance principles to ensure the safety of your investment. Each project undergoes a thorough vetting process, and we provide regular updates on performance. Additionally, you can track your investments through your user dashboard."
+        },
+        {
+          "question": "Can I withdraw funds?",
+          "answer": "Withdrawal policies depend on the specific terms of each project. Generally, you can withdraw your funds after the project reaches its funding goal or upon project completion. Please refer to the project details for more information."
+        }
+      ]
+    }
+  ]
+}
