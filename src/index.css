@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url('./assets/font/Poppins-Medium.ttf') format('truetype');
+}
+
+@theme {
+  --font-poppins: 'poppins', 'sans-serif';
+  --color-primary: "#EDF3F1";
+  --color-secondary: "#FFFFFF";
+  --color-button: "#00B67A";
+  --color-accent: "#2E74EC";
+}
+
+
+@layer utilities {
+
+  /* Custom dotted background */
+  .bg-dotted {
+    background-image: radial-gradient(circle at 2px 2px, #00b679ce 2px, transparent 2px);
+    background-size: 20px 20px;
+  }
+
+  /* Shimmer animation for the border */
+  .animate-shimmer {
+    background: linear-gradient(90deg, #00B67A00 0%, #00b679c0 50%, #00b67921 100%);
+    background-size: 200% 100%;
+    animation: shimmer 2s linear infinite;
+  }
+
+  /* Keyframes for shimmer animation */
+  @keyframes shimmer {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    100% {
+      background-position: 200% 50%;
+    }
+  }
+}
+
+::selection {
+  background-color: #B9F8CF;
+  color: #0a0a0a;
+}
