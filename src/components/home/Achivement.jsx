@@ -4,9 +4,9 @@ import { motion } from "motion/react";
 
 const Achievement = () => {
   const stats = [
-    { end: 4000, suffix: "+", label: "Signature every hour" },
-    { end: 200, suffix: "+", label: "Victory each month" },
-    { end: 10, suffix: "M+", label: "Fundraised per year" },
+    { end: 1000, suffix: "+", label: "Signature every hour" },
+    { end: 50, suffix: "+", label: "Victory each month" },
+    { end: 100, suffix: "k+", label: "Fundraised per year" },
   ];
 
   return (

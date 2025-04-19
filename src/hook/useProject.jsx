@@ -10,7 +10,7 @@ const useProject = () => {
     const fetchData = async () => {
       setloading(true);
       try {
-        // await new Promise((resolve) => setTimeout(resolve, 6000));
+        await new Promise((resolve) => setTimeout(resolve, 2000));
         setallProjectData(porjectdata.projects);
         setloading(false);
       } catch {

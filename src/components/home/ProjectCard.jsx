@@ -32,34 +32,36 @@ const ProjectCard = () => {
 
   return (
     <section className="px-4 py-10 bg-gray-50">
-      <div className="text-center mb-8">
-        <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
+      <div className="text-center mb-8 md:mb-14 lg:mb-28">
+        <h2 className="text-2xl md:text-3xl  lg:text-5xl  font-bold text-gray-800">
           Projects for Investment
         </h2>
       </div>
-      <div className="flex flex-col  justify-center items-center gap-6 mx-10 md:mx-40 lg:mx-[35%]">
+      <div className="flex flex-col justify-center items-center gap-6 mx-4 md:mx-12 lg:mx-20 xl:max-w-6xl xl:mx-auto">
         {allprojectData?.map((project) => (
           <div
             key={project.id}
-            className="bg-white shadow-md hover:shadow-lg rounded-2xl overflow-hidden transition duration-300 "
+            className="bg-white shadow-md hover:shadow-lg rounded-2xl overflow-hidden transition duration-300 flex flex-col md:flex-row w-full"
           >
-            <div className="overflow-hidden">
+            <div className="md:w-1/2 overflow-hidden">
               <img
                 src={project.image_url}
                 alt={project.title}
-                className="w-full h-48 md:h-52 lg:h-60 object-cover transform hover:scale-105 transition duration-300"
+                className="w-full h-48 md:h-full object-cover transform hover:scale-105 transition duration-300"
               />
             </div>
-            <div className="p-4">
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+            <div className="md:w-1/2 p-6 flex flex-col justify-center">
+              <h3 className="text-xl md:text-2xl font-semibold text-gray-800 mb-3">
                 {project.title}
               </h3>
-              <p className="text-sm text-gray-600 mb-4">
+              <p className="text-sm md:text-base text-gray-600 mb-6">
                 {project.short_description}
               </p>
-              <Link to={`/invest/${project.title}`}>
-                <Button text={"see Details"} />
-              </Link>
+              <div>
+                <Link to={`/invest/${project.title}`}>
+                  <Button text={"See Details"} />
+                </Link>
+              </div>
             </div>
           </div>
         ))}

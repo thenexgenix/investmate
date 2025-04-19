@@ -28,7 +28,7 @@ const Hero = () => {
         <div className="w-full max-w-7xl xl:max-w-11/12 mx-auto mt-20 sm:mt-20 md:mt-24 lg:mt-28 flex flex-col-reverse lg:grid lg:grid-cols-2 grid-rows-5 gap-4 px-4 py-5 sm:px-6 lg:px-8 items-center">
           {/* Left section */}
           <div className="row-span-5">
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col md:gap-3">
               {/* Animated Tagline */}
               <h2 className="md:mt-5 bg-green-100 text-[#4e5350] uppercase py-2 px-6 rounded-full hover:bg-green-200 transition w-fit h-fit text-sm font-semibold">
                 {"Talk About Future Growth".split(" ").map((e, i) => {
@@ -58,7 +58,7 @@ const Hero = () => {
                   animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
                   transition={{ duration: 1.2, ease: "easeOut" }}
                   viewport={{ once: true }}
-                  className="leading-12 md:leading-16 text-5xl lg:text-6xl xl:text-7xl font-semibold my-6"
+                  className="leading-12 md:leading-16 lg:leading-12 xl:leading-16 text-4xl lg:text-[45px] xl:text-6xl font-semibold  my-3 lg:my-4 xl:my-6 "
                 >
                   Empower Your <br />
                   Investments with Our <br />

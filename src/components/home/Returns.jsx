@@ -1,5 +1,5 @@
 import React from "react";
-import roundimage from "../../assets/images/round-image.png";
+import roundimage from "../../assets/images/return-image.png";
 import { motion } from "motion/react";
 import { Handshake, BadgeDollarSign, TrendingUp } from "lucide-react";
 
